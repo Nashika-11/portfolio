@@ -1,0 +1,49 @@
+.hidden{
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+
+  .show{
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .stager:nth-child(2){
+    transition-delay: 200ms;
+  }
+
+  .stager:nth-child(3){
+    transition-delay: 400ms;
+  }
+
+  .stager:nth-child(4){
+    transition-delay: 600ms;
+  }
+
+  .stager:nth-child(5){
+    transition-delay: 800ms;
+  }
+
+  .stager:nth-child(6){
+    transition-delay: 1s;
+  }
+
+  .hidden-alt{
+    opacity: 0;
+    filter: blur(8px);
+    transition: all 2.5s;
+  }
+
+  .show-alt{
+    opacity: 1;
+    filter: blur(0);
+  }
+
+  .hidden-alt-img:nth-child(2){
+    transition-delay: 100ms;
+  }
+
+  .hidden-alt-img:nth-child(3){
+    transition-delay: 200ms;
+  }

@@ -1,0 +1,92 @@
+  #main-header{
+    border: none;
+    background: transparent;
+  }
+
+
+  #landing-page{
+    background: url("https://res.cloudinary.com/duqweg9fr/image/upload/v1704306201/Portfolio/bg12_oyjunh.jpg") no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box{
+    height: 400px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #landing-page .content{
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .social-icons, #landing-page a{
+    align-self: flex-start;
+    margin-left: 2rem;
+  }
+
+  .social-icons i{
+    font-size: 1.7rem;
+  }
+
+  .social-icons i:nth-child(1){
+    color: #f5f5f5;
+  }  
+  
+  .social-icons i:nth-child(2){
+    color: #f84e6d;
+  }
+  
+  
+  .social-icons i:nth-child(3){
+    color: #ee5700;
+  }
+
+  #landing-page .container{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .title{
+    text-transform: uppercase;
+  }
+
+  span{
+    color: var(--primary-color-pink);
+    font-weight: 900;
+    font-family:sans-serif
+  }
+
+  @media (min-width: 40rem){
+    .box{
+      width: 500px;
+    }
+  }
+
+  @media (min-width: 48rem) {
+
+       .box{
+        width: 700px;
+        padding-left: 2rem;
+        height: 400px;
+       }
+  }
