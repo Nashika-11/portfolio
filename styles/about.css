@@ -13,7 +13,7 @@
 }
 
 #about{
-   min-height: 100vh;
+   margin: 4rem auto;
    max-width: 60rem;
    margin: 4rem auto;
    display: flex;
