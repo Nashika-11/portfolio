@@ -3,13 +3,11 @@
     background: transparent;
   }
 
-
   #landing-page{
     background: url("https://res.cloudinary.com/duqweg9fr/image/upload/v1704306201/Portfolio/bg12_oyjunh.jpg") no-repeat;
     background-size: cover;
     background-position: center; 
     width: 100%;
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
