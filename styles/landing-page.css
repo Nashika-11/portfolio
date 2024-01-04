@@ -32,11 +32,13 @@
   height:3rem;
   border-radius:100%;
   overflow:hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile h1{
   font-size: var(--font-size-big);
-  text-align: center;
 }
 
   #landing-page .content{
