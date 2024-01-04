@@ -34,6 +34,7 @@
   height:3rem;
   border-radius:100%;
   overflow:hidden;
+  text-align: center;
 }
 
 .profile h1{
