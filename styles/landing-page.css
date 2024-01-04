@@ -21,6 +21,7 @@
     border-radius: 12px;
     backdrop-filter: blur(10px);
     margin-top: 6rem;
+    margin-bottom: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
