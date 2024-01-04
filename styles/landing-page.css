@@ -28,6 +28,18 @@
     justify-content: center;
   }
 
+.profile{
+  background: var(--primary-color-pink);
+  width: 3rem;
+  height:3rem;
+  border-radius:100%;
+  overflow:hidden;
+}
+
+.profile h1{
+  font-size: var(--font-size-big);
+}
+
   #landing-page .content{
     margin: 0 2rem;
     display: flex;
