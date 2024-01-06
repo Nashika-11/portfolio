@@ -52,7 +52,7 @@
     height: calc(100vh - 4rem);
     background-color: rgba(0, 0, 0, 0.658);
     border-right: 1px solid rgba(255, 255, 255, 0.3);
-    z-index: 2;
+    z-index: 20;
     transition: 0.7s;
 }
 
