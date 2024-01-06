@@ -83,6 +83,11 @@
     text-transform: uppercase;
   }
 
+#landing-page .btn{
+  z-index:18
+}
+
+
   span{
     color: var(--primary-color-pink);
     font-weight: 900;
