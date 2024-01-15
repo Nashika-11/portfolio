@@ -108,6 +108,7 @@ font-weight: 100;
 
     @media(max-width:48rem){
       #footer{
-  text-align: left;      }
+  text-align: left;
+padding: 1rem 0;      }
     }
   

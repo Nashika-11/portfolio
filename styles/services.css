@@ -125,4 +125,8 @@
     #services .container .card{
         width: 95%;
     }
+
+    .bubble:nth-child(2){
+        left: 10%;
+    }
 }
