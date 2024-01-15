@@ -1,6 +1,6 @@
 const Texts = [
     'HTML', 'CSS', 'JAVASCRIPT',
-    'ANGULAR', 'MONGOOSE', 'REACT',
+    'ANGULAR', 'MONGOOSE', 'VSCODE',
     'FRONTEND', 'GITHUB',
     'GIT', 'NODEJS', 'MONGODB',
     'EXPRESS', 'MYSQL', 'BACKEND', 'JAVA'

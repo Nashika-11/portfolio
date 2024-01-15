@@ -47,7 +47,6 @@
 
 #mobile-menu{
     position: fixed;
-    top: 4rem;
     left: -100%;
     height: calc(100vh - 4rem);
     background-color: rgba(0, 0, 0, 0.658);
@@ -62,7 +61,7 @@
 
 #mobile-menu nav{
     height: 20rem;
-    margin: 1rem 8rem 1rem 1rem;
+    margin: 6rem 8rem 1rem 1rem;
 }
 
 #mobile-menu .nav-items li{

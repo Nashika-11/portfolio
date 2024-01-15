@@ -17,9 +17,6 @@ html{
         --font-size-xtra-big: 3.5rem;
         --font-size-big: 2rem;
         --font-size-medium: 1rem;
-        --font-size-small: 1rem;
-        --font-size-xs:0.5rem;
-       
   }
   
   *{
@@ -96,12 +93,16 @@ font-weight: 100;
       text-transform: uppercase;
     }
 
-    #footer p:nth-of-type(2),#footer p:nth-of-type(3){
+    #footer p:nth-of-type(3),#footer p:nth-of-type(4){
       color: var(--primary-color-pink);
       margin-top: 1rem;
     }
 
-    #footer p:nth-of-type(3){
+    #footer p a{
+      color: var(--primary-color-pink);
+    }
+
+    #footer p:nth-of-type(4){
       margin-bottom: 2rem;
       margin-top: 0;
     }
