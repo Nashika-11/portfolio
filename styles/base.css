@@ -1,6 +1,6 @@
 html{
     min-height: 100%;
-    overflow-x: hidden;
+    overflow-x:hidden;
     position: relative;
     scroll-behavior: smooth;
   }
@@ -33,6 +33,10 @@ html{
   
   body{
     background: var(--bg1);
+  }
+
+  main{
+    width: 100%;
   }
   
   ul,ol {

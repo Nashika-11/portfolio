@@ -43,11 +43,9 @@
 }
 
 #about span{
-    font-weight: inherit;
     font-style: italic;
 }
  #about a{
-    font-style: italic;
     letter-spacing: 1px;
  }
 

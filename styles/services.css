@@ -1,8 +1,8 @@
 #services{
-    max-width: 100%;
     margin: 0 auto;
     text-align: center;
     position: relative;
+
 }
 
 .bubble{
@@ -15,25 +15,26 @@
     top: 50%;
 }
 
+
 .bubble:nth-child(2){
-    left: 50%;
-    top: 10%;
+    left: 0;
+    top: 0;
     animation-delay: 2s;
 }
 
 .bubble:nth-child(3){
-    right: 20%;
-    top: 80%;
+    right:15%;
+    top: 85%;
     animation-delay: 3s;
 }
 
 @keyframes animate{
     0%,100%{
-        transform: translateX(-20px) translateY(-40px) rotate(-90deg);
+        transform:translateY(-40px) rotate(-45deg);
     }
 
     50%{
-        transform: translateX(20px) translateY(40px) rotate(90deg);
+        transform:  translateY(40px) rotate(45deg);
     }
 }
 
@@ -98,4 +99,17 @@
     margin-top: -1rem;
 }
 
+@media(min-width:48rem){
 
+    .bubble:nth-child(2){
+        left: 40%;
+        top: 10%;
+        animation-delay: 2s;
+    }
+    
+    .bubble:nth-child(3){
+        right:10%;
+        top: 85%;
+        animation-delay: 3s;
+    }
+}
