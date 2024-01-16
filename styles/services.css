@@ -58,7 +58,6 @@
     margin: 4rem 0;
     font-size: var(--font-size-big);
     text-transform: capitalize;
-    color: var(--primary-color-pink);
 }
 
 #services .container{
