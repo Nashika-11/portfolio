@@ -11,8 +11,11 @@ html{
       --text-color: #ffffff;
   
         --primary-color-pink: #9b3244;
-        --primary-color-pink-2: #480ea6;
-        --color-gray:rgb(50, 50, 50);
+
+        --glass-background:rgba(255, 255, 255, 0.04);
+        --glass-border:1px solid rgba(255, 255, 255, 0.3);
+        --glass-bg-dark:rgba(0, 0, 0, 0.658);
+        --bg-blur:blur(10px);
   
         --font-size-xtra-big: 3.5rem;
         --font-size-big: 2rem;
@@ -23,20 +26,13 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family:'Poppins', sans-serif; */
     color: var(--text-color);
-font-family: 'Poppins', sans-serif;
-font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
   }
   
   body{
     background: var(--bg1);
-  }
-
-  main{
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
   }
   
   ul,ol {
@@ -45,7 +41,6 @@ font-weight: 100;
       padding: 0;
   }
 
-  
   a{
       text-decoration: none;
   }
@@ -53,17 +48,11 @@ font-weight: 100;
   .btn{
       border: none;
       border-radius: 16px;
-      color: #fff;
       background-color: var(--primary-color-pink);
       font-size: var(--font-size-medium);
       cursor: pointer;
       padding: 0.5rem 1rem;
       transition: 0.5s;
-    }
-  
-    .btn-alt{
-      background: transparent;
-      border: var(--primary-color-blue) solid 1px;
     }
     
    .btn:hover{
@@ -109,7 +98,7 @@ font-weight: 100;
 
     @media(max-width:48rem){
       #footer{
-  text-align: left;
-padding: 1rem 0;      }
-    }
+      text-align: left;
+      padding: 1rem 0;      
+    }}
   

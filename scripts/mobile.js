@@ -6,8 +6,6 @@ function toggleMobileMenu () {
     mobileMenuPage.classList.toggle('active')
 
     for(const menuPageListElement of menuPageListElements){
-        menuPageListElement.classList.remove('hidden')
-        menuPageListElement.classList.remove('stager')
         menuPageListElement.classList.toggle('active')
     }
 }

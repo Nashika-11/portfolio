@@ -43,7 +43,3 @@
   .hidden-alt-img:nth-child(2){
     transition-delay: 100ms;
   }
-
-  .hidden-alt-img:nth-child(3){
-    transition-delay: 200ms;
-  }

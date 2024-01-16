@@ -9,7 +9,6 @@
     width: 100%;
     height: 150px;
     background: linear-gradient(to top, rgb(0, 0, 0),transparent);
-    z-index: 2;
 }
 
 #about{
@@ -38,6 +37,23 @@
     padding-bottom: 1px;
     border-bottom: solid var(--primary-color-pink) 1px;
 }
+
+#about p{
+    margin-bottom: 1rem;
+}
+
+#about span{
+    font-weight: inherit;
+    font-style: italic;
+}
+ #about a{
+    font-style: italic;
+    letter-spacing: 1px;
+ }
+
+ #about a:hover{
+    border-bottom: solid var(--primary-color-pink) 1px;
+ }
 
 @media(min-width:48rem){
     #about{
