@@ -1,7 +1,7 @@
 .hidden{
     opacity: 0;
     transform: translateX(-100%);
-    transition: all 1s;
+    transition: all 1.5s;
   }
 
   .show{
@@ -31,15 +31,9 @@
 
   .hidden-alt{
     opacity: 0;
-    filter: blur(8px);
-    transition: all 2.5s;
+    transition: all 2s;
   }
 
   .show-alt{
     opacity: 1;
-    filter: blur(0);
-  }
-
-  .hidden-alt-img:nth-child(2){
-    transition-delay: 100ms;
   }
