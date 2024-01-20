@@ -5,6 +5,10 @@
 
 }
 
+/* #services .btn{
+    transition: all 0.5s ease-in-out;
+} */
+
 .bubble{
     position: absolute;
     width: 200px;
@@ -30,11 +34,11 @@
 
 @keyframes animate{
     0%,100%{
-        transform:translateY(-40px) rotate(-45deg);
+        transform:translateY(0) rotate(0deg);
     }
 
     50%{
-        transform:  translateY(40px) rotate(45deg);
+        transform:  translateY(50px) rotate(-45deg);
     }
 }
 
