@@ -9,6 +9,14 @@
     transform: translateX(0);
   }
 
+ #landing-page .hidden, #services .hidden,#projects .title.hidden{
+  transform: translateY(-100%);
+ } 
+
+ #landing-page .show, #services .show, #projects .title.show{
+  transform: translateY(0);
+}
+
   .stager:nth-child(2){
     transition-delay: 200ms;
   }
@@ -27,13 +35,4 @@
 
   .stager:nth-child(6){
     transition-delay: 1s;
-  }
-
-  .hidden-alt{
-    opacity: 0;
-    transition: all 2s;
-  }
-
-  .show-alt{
-    opacity: 1;
   }
