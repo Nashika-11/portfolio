@@ -5,10 +5,6 @@
 
 }
 
-/* #services .btn{
-    transition: all 0.5s ease-in-out;
-} */
-
 .bubble{
     position: absolute;
     width: 200px;
@@ -45,17 +41,15 @@
 .bubble span{
     position: absolute;
     border-radius: 50%; 
-    
+    inset: 10px;
 }
 
 .bubble span:nth-child(1){
     border-left: 15px solid #0fb4ff;
-    inset: 10px;
 }
 
 .bubble span:nth-child(2){
     border-right: 15px solid var(--primary-color-pink);
-    inset: 10px;
 }
 
 #services .title{
@@ -75,11 +69,14 @@
 
 #services .container .card{
     background-color: var(--glass-background);
-    border: var(--glass-border);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     padding: 3rem;
-    
+    animation: float ease-in-out infinite 4s;
+}
+
+#services .container .card:nth-child(2){
+    animation-delay: 2s;
 }
 
 #services .container .card>*, .card a{
@@ -97,7 +94,7 @@
 #services .container .card .content h1{
     font-size: var(--font-size-big);
 }
-.price{
+.service-title{
     margin-bottom: 2rem;
     margin-top: -1rem;
 }
