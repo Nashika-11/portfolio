@@ -30,9 +30,8 @@ var TypeWriter = new Typewriter(aboutContent,{
 });
 
 TypeWriter
-.pauseFor(4000)
 .typeString(`<p >From engaging UIs to <span>robust functionality</span>, I render websites that are meticulously designed to <span>elevate your brand</span> and drive success in the digital world.</p>`)
 .typeString(`<p> Weather you're  a <span>small business</span>, an <span>entrepreneur</span> or a <span>content creator</span>, I will enhance your <span>online presence.</span> I pay attention to every detail and commitment into building user-friendly experiences.</p>`)
 .typeString(`<p"> I make sure to deliver the projects on time and within the <span>budget</span>. My strong communication skills ensure <span>smooth collaboration</span>.</p>`)
-.typeString(`<a href="https://on.contra.com/kL7WB8">Know more <span> on.contra</span></a>`)
+.typeString(`<a href="https://on.contra.com/kL7WB8">Know more <span> @on.contra.com</span></a>`)
 .start()
