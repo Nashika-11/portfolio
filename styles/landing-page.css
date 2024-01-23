@@ -24,13 +24,17 @@
     }
 }
 #landing-page .container{
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column; */
   gap: 1rem;
   text-align: center;
   padding: 0 4rem;
+}
+
+#landing-page .main-content{
+  z-index: 3;
 }
 
   #landing-page .profile{ 
@@ -54,8 +58,8 @@
   #landing-page .content{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     gap: 2rem;
   }
 
@@ -76,21 +80,26 @@
     margin-bottom: 1rem;
   }
 
+  #landing-page h1 span{
+    font-weight: inherit;
+    width: 24ch;
+    text-shadow:0 0 30px var(--primary-color-pink), 0 0 10px var(--primary-color-pink)
+  }
+
   span{
     color: var(--primary-color-pink);
     font-weight: 900;
-    font-family:sans-serif
   }
 
 
   @media(min-width:48rem){
     #landing-page .container{
       margin-left: 8rem;
-      /* width: 50%; */
       text-align: left;
       padding: 0;
       display: flex;
       flex-direction: row-reverse;
+      width: 100%;
     }
 
     #landing-page .main-content, .profile{
