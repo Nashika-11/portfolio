@@ -23,19 +23,6 @@
 .projects-grid li{
     height: 15rem;
     border: var(--glass-border);
-    animation: float ease-in-out infinite 4s;
-}
-
-.projects-grid li:nth-of-type(2){
-    animation-delay: 1s;
-}
-
-.projects-grid li:nth-of-type(3){
-    animation-delay: 2s;
-}
-
-.projects-grid li:nth-of-type(4){
-    animation-delay: 3s;
 }
 
 .projects-grid .image{
